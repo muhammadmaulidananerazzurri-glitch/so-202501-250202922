@@ -1,25 +1,73 @@
 
-# Laporan Praktikum Minggu [X]
-Topik: [Tuliskan judul topik, misalnya "Arsitektur Sistem Operasi dan Kernel"]
+# Laporan Praktikum Minggu 3
+Topik: Manajemen File dan Permission di Linux
+
+
 
 ---
 
 ## Identitas
-- **Nama**  : [Nama Mahasiswa]  
-- **NIM**   : [NIM Mahasiswa]  
-- **Kelas** : [Kelas]
+- **Nama**  : Muhammad Maulidana Nerazzuri
+- **NIM**   :250202922
+- **Kelas** : 1IKRA
 
 ---
 
 ## Tujuan
-Tuliskan tujuan praktikum minggu ini.  
-Contoh:  
-> Mahasiswa mampu menjelaskan fungsi utama sistem operasi dan peran kernel serta system call.
+Tuliskan tujuan praktikum minggu ini.   
+
+Mahasiswa mampu:
+1. Menggunakan perintah `ls`, `pwd`, `cd`, `cat` untuk navigasi file dan direktori.
+2. Menggunakan `chmod` dan `chown` untuk manajemen hak akses file.
+3. Menjelaskan hasil output dari perintah Linux dasar.
+4. Menyusun laporan praktikum dengan struktur yang benar.
+5. Mengunggah dokumentasi hasil ke Git Repository tepat waktu.
+
 
 ---
 
 ## Dasar Teori
-Tuliskan ringkasan teori (3–5 poin) yang mendasari percobaan.
+1. Struktur Sistem File Linux
+Linux menggunakan struktur sistem file berbentuk pohon (hierarki), dengan direktori root (/) sebagai akar. Semua file dan direktori lainnya bercabang dari root ini. Pemahaman struktur ini penting untuk navigasi dan pengelolaan file.
+
+2. Hak Akses (Permissions) File
+Setiap file dan direktori di Linux memiliki hak akses yang menentukan siapa yang bisa membaca, menulis, atau mengeksekusi file. Hak akses dibagi menjadi tiga kategori:
+
+• Owner (pemilik file)
+
+• Group (grup pemilik file)
+
+• Others (pengguna lain)
+
+Hak akses ditampilkan dalam bentuk simbolik (misalnya rwxr-xr--) atau numerik (misalnya 754).
+
+4. Perintah Dasar Manajemen File
+
+Perintah dasar yang digunakan dalam manajemen file di Linux meliputi:
+
+• ls, cd, pwd – untuk navigasi direktori
+
+• cp, mv, rm, mkdir – untuk mengelola file dan folder
+
+• touch – untuk membuat file kosong
+
+4. Perintah Manajemen Permission
+
+Perintah yang digunakan untuk mengatur hak akses file/direktori:
+
+chmod – mengubah permission file/direktori
+
+chown – mengubah kepemilikan file/direktori
+
+chgrp – mengubah grup pemilik file/direktori
+
+5. Mode Permission: Simbolik vs Numerik
+
+Permission dapat diatur dalam dua mode:
+
+Simbolik: Contoh chmod u+x file.sh (menambah izin eksekusi untuk user)
+
+Numerik: Contoh chmod 755 file.sh (7=rwx untuk user, 5=r-x untuk group, 5=r-x untuk others)
 
 ---
 
