@@ -114,6 +114,17 @@ Sertakan screenshot hasil percobaan atau diagram:
 
 ![Screenshot hasil](https://github.com/muhammadmaulidananerazzurri-glitch/so-202501-250202922/blob/main/praktikum/week2-syscall-structures/screenshots/Muhammad%20Maulidana%20Nerazzuri-1IKRA%20png.png)
 
+
+![Deskripsi Gambar](https://github.com/muhammadmaulidananerazzurri-glitch/praktikum-week1-intro-arsitektur-os-screenshot-/blob/main/IMG-20251022-WA0016.jpg)
+
+
+![Deskripsi Gambar](https://github.com/muhammadmaulidananerazzurri-glitch/praktikum-week1-intro-arsitektur-os-screenshot-/blob/main/IMG-20251022-WA0017.jpg)
+
+
+![Deskripsi Gambar](https://github.com/muhammadmaulidananerazzurri-glitch/praktikum-week1-intro-arsitektur-os-screenshot-/blob/main/IMG-20251022-WA0018.jpg)
+
+
+
 ---
 
 ## Analisis
