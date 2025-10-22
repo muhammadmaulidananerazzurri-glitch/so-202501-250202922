@@ -111,6 +111,7 @@ dmesg | head
 
 ## Hasil Eksekusi
 Sertakan screenshot hasil percobaan atau diagram:
+
 ![Screenshot hasil](https://github.com/muhammadmaulidananerazzurri-glitch/so-202501-250202922/blob/main/praktikum/week2-syscall-structures/screenshots/Muhammad%20Maulidana%20Nerazzuri-1IKRA%20png.png)
 
 ---
