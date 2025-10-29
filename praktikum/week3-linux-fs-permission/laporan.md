@@ -91,29 +91,52 @@ dmesg | head
 
 ## Hasil Eksekusi
 Sertakan screenshot hasil percobaan atau diagram:
-![Screenshot hasil](screenshots/example.png)
+![Screenshot hasil](https://github.com/muhammadmaulidananerazzurri-glitch/praktikum-week1-intro-arsitektur-os-screenshot-/blob/main/Untitled%20Diagram.drawio.png)
 
 ---
 
 ## Analisis
-- Jelaskan makna hasil percobaan.  
+- Jelaskan makna hasil percobaan.
+
+Manajemen file dan permission di Linux merupakan implementasi langsung dari teori kernel, system call, dan keamanan sistem operasi, di mana kernel mengontrol seluruh operasi terhadap file berdasarkan hak akses yang ditentukan pengguna.
+
 - Hubungkan hasil dengan teori (fungsi kernel, system call, arsitektur OS).  
 - Apa perbedaan hasil di lingkungan OS berbeda (Linux vs Windows)?  
 
 ---
 
 ## Kesimpulan
-Tuliskan 2–3 poin kesimpulan dari praktikum ini.
+
+1. Manajemen file di Linux dapat dilakukan dengan berbagai perintah seperti ls, cd, cp, mv, rm, dan mkdir untuk mengelola file maupun direktori secara efisien melalui terminal.
+
+2. Hak akses (permission) pada file atau direktori diatur menggunakan perintah chmod (mengubah izin akses) dan chown (mengubah kepemilikan file atau direktori), yang menentukan siapa saja yang dapat membaca, menulis, dan mengeksekusi file tersebut.
+
+3. Pemahaman terhadap sistem permission Linux (r, w, x) sangat penting untuk menjaga keamanan dan keteraturan sistem, agar hanya pengguna yang berwenang dapat mengakses atau memodifikasi file tertentu.
 
 ---
 
 ## Quiz
-1. [Pertanyaan 1]  
-   **Jawaban:**  
-2. [Pertanyaan 2]  
-   **Jawaban:**  
-3. [Pertanyaan 3]  
-   **Jawaban:**  
+1. Apa fungsi dari perintah chmod?
+
+    Jawaban:
+
+*chmod*  digunakan untuk menentukan siapa saja yang boleh:
+
+1. membaca (read / r) file atau folder,
+2. menulis (write / w) atau mengubahnya, dan
+3. menjalankannya (execute / x) jika itu adalah program atau skrip
+
+2. Apa arti dari kode permission rwxr-xr--? 
+   Jawaban:
+
+Kode permission rwxr-xr-- adalah izin akses (file permission) pada sistem Linux atau Unix, yang menunjukkan hak akses untuk tiga jenis pengguna: user, group, dan others
+
+3. Jelaskan perbedaan antara chown dan chmod
+   Jawaban:
+
+`chown` *Change Owner:Mengubah **kepemilikan** file/direktori (user dan/atau group)*                          
+`chmod` *Change Mode:Mengubah **izin (permission)** untuk membaca, menulis, atau mengeksekusi file/direktori*
+
 
 ---
 
