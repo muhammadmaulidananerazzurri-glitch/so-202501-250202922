@@ -1,25 +1,48 @@
 
-# Laporan Praktikum Minggu [X]
-Topik: [Tuliskan judul topik, misalnya "Arsitektur Sistem Operasi dan Kernel"]
+# Laporan Praktikum Minggu 7
+Topik:  Sinkronisasi Proses dan Masalah Deadlock
 
 ---
 
 ## Identitas
-- **Nama**  : [Nama Mahasiswa]  
-- **NIM**   : [NIM Mahasiswa]  
-- **Kelas** : [Kelas]
+- **Nama**  : Muhammad Maulidana Nerazzuri  
+- **NIM**   : 250202922
+- **Kelas** : 1IKRA
 
 ---
 
 ## Tujuan
-Tuliskan tujuan praktikum minggu ini.  
-Contoh:  
-> Mahasiswa mampu menjelaskan fungsi utama sistem operasi dan peran kernel serta system call.
+1. Memahami cara proses berjalan secara bersamaan (concurrency)
+2. Mencegah kondisi race condition
+3. Menguasai mekanisme pengendalian akses ke resource bersama
+4. Meningkatkan efisiensi dan kinerja sistem
+5. Membangun kemampuan merancang program paralel yang aman 
 
 ---
 
 ## Dasar Teori
-Tuliskan ringkasan teori (3–5 poin) yang mendasari percobaan.
+
+1. Konkurensi dan Critical Section
+Saat beberapa proses/thread berjalan bersamaan, mereka dapat mengakses data atau resource yang sama. Bagian kode yang mengakses resource bersama disebut critical section, dan harus dilindungi agar tidak terjadi race condition.
+
+2. Mekanisme Sinkronisasi
+Untuk mengatur akses ke critical section, digunakan mekanisme seperti mutex, semaphore, monitor, dan lock. Tujuan utamanya adalah memastikan hanya satu proses mengakses resource pada satu waktu serta menjaga konsistensi data.
+
+3. Kondisi Terjadinya Deadlock
+Deadlock muncul ketika proses saling menunggu resource yang tidak akan pernah dilepaskan. Empat syarat deadlock menurut Coffman adalah: mutual exclusion, hold and wait, no preemption, dan circular wait.
+
+4. Penanganan Deadlock
+
+Ada tiga pendekatan utama yaitu:
+
+    Pencegahan (prevention): Menghilangkan salah satu dari empat kondisi deadlock.
+
+    Penghindaran (avoidance): Menggunakan analisis alokasi resource (misal Banker’s Algorithm).
+
+    Deteksi & Pemulihan (detection & recovery): Mengizinkan deadlock terjadi lalu mendeteksinya dan memulihkan sistem.
+
+5. Resource Allocation & State System
+Sistem operasi memetakan resource ke proses. Kesalahan dalam pengalokasian atau sinkronisasi dapat menyebabkan deadlock atau kondisi kompetisi. Karena itu, desain algoritma sinkronisasi dan manajemen resource menjadi aspek utama percobaan.
 
 ---
 
